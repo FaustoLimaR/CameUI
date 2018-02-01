@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--ExpandableLayout -->
+
+    <declare-styleable name="ExpandableLayout">
+        <attr name="el_duration" format="integer" />
+        <attr name="el_expanded" format="boolean" />
+        <attr name="el_parallax" format="float" />
+        <attr name="android:orientation"/>
+    </declare-styleable>
+
+    <declare-styleable name="StyleTextView">
+        <attr name="tipo" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="StyleButton">
+        <attr name="protectOnclick" format="boolean" />
+        <attr name="tipoBtn" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="DatoGeneralStyle">
+        <attr name="formato" format="enum">
+            <enum name="email" value="0"/>
+            <enum name="password" value="1"/>
+            <enum name="phone" value="2"/>
+            <enum name="zipcode" value="3"/>
+            <enum name="text" value="4"/>
+            <enum name="number" value="5"/>
+            <enum name="cellphone" value="6"/>
+            <enum name="amount" value="7"/>
+        </attr>
+        <attr name="tipoEtiqueta" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+
+        <attr name="tipoValor" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="label" format="string"/>
+        <attr name="labelColor" format="color"/>
+        <attr name="defaultIcon" format="reference"/>
+        <attr name="backgroundEtiqueta" format="reference"/>
+        <attr name="backgroundValor" format="reference"/>
+        <attr name="gravityValor" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="hasIcon" format="boolean" />
+        <attr name="hasLabel" format="boolean" />
+        <attr name="hasValue" format="boolean" />
+    </declare-styleable>
+
+
+
+
+</resources>

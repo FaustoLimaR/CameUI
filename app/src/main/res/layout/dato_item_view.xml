@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutDatoGeneral"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_image_dato_general"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageDatoGeneral"
+            android:layout_width="@dimen/size_image_dato_general"
+            android:layout_height="@dimen/size_image_dato_general"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:src="@mipmap/ic_launcher"/>
+
+        <com.kokonutstudio.came.cameui.customView.StyleTextView
+            style="@style/TextViewEtiquetaDato"
+            android:layout_width="wrap_content"
+            android:id="@+id/tvEtiquetaDato"
+            android:text="Día de reunión:"
+            app:tipo="normal"/>
+
+        <com.kokonutstudio.came.cameui.customView.StyleTextView
+            style="@style/TextViewValorDato"
+            android:id="@+id/tvValorDato"
+            android:text="Id. Socio"
+            android:gravity="left"
+            app:tipo="normal"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+

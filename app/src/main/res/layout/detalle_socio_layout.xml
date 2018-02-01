@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutContenedorItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/paddin_detail_item_socio">
+
+
+    <LinearLayout
+        style="@style/DetalleSocioHorizontalLayout">
+        <com.kokonutstudio.came.cameui.customView.DetalleItemSocioView
+            style="@style/DetalleSocioItems" />
+        <com.kokonutstudio.came.cameui.customView.DetalleItemSocioView
+            style="@style/DetalleSocioItems"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/DetalleSocioHorizontalLayout">
+        <com.kokonutstudio.came.cameui.customView.DetalleItemSocioView
+            style="@style/DetalleSocioItems" />
+        <com.kokonutstudio.came.cameui.customView.DetalleItemSocioView
+            style="@style/DetalleSocioItems"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        style="@style/DetalleSocioHorizontalLayout">
+        <com.kokonutstudio.came.cameui.customView.DetalleItemSocioView
+            style="@style/DetalleSocioItems" />
+        <com.kokonutstudio.came.cameui.customView.DetalleItemSocioView
+            style="@style/DetalleSocioItems"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

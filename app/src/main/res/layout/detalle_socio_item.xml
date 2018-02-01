@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kokonutstudio.came.cameui.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/layoutHeaderDetalleSocio"
+            layout="@layout/header_detalle_socio_item"/>
+
+        <com.kokonutstudio.came.cameui.customView.ExpandableLayout
+            android:id="@+id/expandable_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutHeaderDetalleSocio"
+            app:el_duration="1000"
+            app:el_expanded="true">
+
+            <include
+                layout="@layout/detalle_socio_layout"/>
+
+        </com.kokonutstudio.came.cameui.customView.ExpandableLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

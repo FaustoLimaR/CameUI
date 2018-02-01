@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="general_margin">16dp</dimen>
+    <dimen name="general_padding">12sp</dimen>
+    <dimen name="text_size_dato_general">11sp</dimen>
+    <dimen name="size_image_dato_general">30dp</dimen>
+    <dimen name="margin_item_dato_general">8dp</dimen>
+    <!--Detalle Grupo - Socio -->
+    <dimen name="paddin_detail_item_socio">8dp</dimen>
+    <dimen name="text_size_value_item_soc">24sp</dimen>
+    <dimen name="text_size_title_item_soc">16sp</dimen>
+    <dimen name="margin_item_detalle_socio">12sp</dimen>
+    <dimen name="height_header_detalle_socio">45dp</dimen>
+    <dimen name="paddin_estatus_datos_socio">4dp</dimen>
+
+
+    <dimen name="text_size_nombre_grupo">16sp</dimen>
+
+
+    <dimen name="height_header_grupos_detalle_grupo">150dp</dimen>
+    <dimen name="text_size_btn">16sp</dimen>
+
+    <dimen name="card_view_corner_radius">8dp</dimen>
+    <dimen name="card_view_elevation">4dp</dimen>
+
+</resources>

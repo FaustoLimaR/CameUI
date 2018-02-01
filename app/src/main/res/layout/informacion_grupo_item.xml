@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:id="@+id/content_element"
+    app:cardElevation="@dimen/card_view_elevation"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/general_margin"
+    app:cardCornerRadius="@dimen/card_view_corner_radius"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/layoutContenedorItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/paddin_detail_item_socio">
+
+        <com.kokonutstudio.came.cameui.customView.StyleTextView
+            style="@style/TextViewGruposNombreGrupo"
+            android:id="@+id/tvNombreGrupo"
+            android:text="73 ARBOLITO DE LA abundancia"/>
+
+        <com.kokonutstudio.came.cameui.customView.StyleTextView
+            style="@style/TextViewGruposNombreGrupo"
+            android:id="@+id/tvIdGrupo"
+            android:textColor="@color/black_titles"
+            android:text="46739453453"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/general_margin"
+            android:orientation="horizontal">
+
+            <com.kokonutstudio.came.cameui.customView.DatoGeneralView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:defaultIcon="@mipmap/ic_launcher"
+                app:tipoValor="bold"
+                android:layout_weight="1"/>
+
+            <com.kokonutstudio.came.cameui.customView.DatoGeneralView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tipoValor="bold"
+                app:hasIcon ="true"
+                app:defaultIcon="@mipmap/ic_launcher"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.kokonutstudio.came.cameui.customView.DatoGeneralView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:defaultIcon="@mipmap/ic_launcher"
+                app:tipoValor="bold"
+                android:layout_weight="1"/>
+
+            <com.kokonutstudio.came.cameui.customView.DatoGeneralView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:defaultIcon="@mipmap/ic_launcher"
+                app:tipoValor="bold"
+                app:backgroundValor="@drawable/background_estatus_datos_socio"
+                app:hasIcon="true"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
+
+
+
+
+

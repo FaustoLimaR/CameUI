@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutContenedorItem"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_header_grupos_detalle_grupo"
+    android:orientation="vertical"
+    android:background="@color/text_detail_soc"
+    android:padding="@dimen/paddin_detail_item_socio">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.kokonutstudio.came.cameui.customView.StyleButton
+            style="@style/ButtonTransparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/general_margin"
+            android:layout_alignParentRight="true"
+            android:text="Ir a Detalle"
+            app:tipoBtn="normal"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.kokonutstudio.came.cameui.customView.CustomSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tipoValor="bold"
+            android:layout_margin="@dimen/margin_item_dato_general"
+            android:layout_centerVertical="true"/>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <com.kokonutstudio.came.cameui.customView.StyleTextView
+                android:id="@+id/tvCiclo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/margin_item_dato_general"
+                app:tipo="normal"
+                android:text="Ciclo:"/>
+
+            <com.kokonutstudio.came.cameui.customView.CustomSpinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tipoValor="bold"
+                android:layout_toRightOf="@+id/tvCiclo"
+                android:layout_margin="@dimen/margin_item_dato_general"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"/>
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutContenedorHeaderItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_header_detalle_socio"
+        android:background="@color/green">
+
+        <ImageView
+            android:id="@+id/imageSocio"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@color/black"/>
+
+        <com.kokonutstudio.came.cameui.customView.StyleTextView
+            style="@style/TextHeaderDetalleSocio"
+            android:id="@+id/tvNombreSocio"
+            android:layout_marginLeft="@dimen/general_margin"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/imageSocio"
+            android:layout_centerVertical="true"
+            android:text="García Gómez Ana Leticia"
+            app:tipo="bold"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/paddin_detail_item_socio">
+
+        <com.kokonutstudio.came.cameui.customView.StyleTextView
+            style="@style/TextHeaderDetalleSocio"
+            android:id="@+id/tvTituloClasificacionSocio"
+            android:layout_marginLeft="@dimen/general_margin"
+            android:gravity="center"
+            android:text="Clasificación:"
+            app:tipo="bold"/>
+
+        <com.kokonutstudio.came.cameui.customView.StyleTextView
+            style="@style/TextHeaderDetalleSocio"
+            android:layout_marginLeft="@dimen/general_margin"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/tvTituloClasificacionSocio"
+            android:text="- -"
+            app:tipo="bold"/>
+
+                <com.kokonutstudio.came.cameui.customView.StyleTextView
+                    style="@style/TextHeaderActualizadosDetalleSocio"
+                    android:gravity="center"
+                    android:text="Datos actualizados"
+                    android:layout_marginLeft="@dimen/general_margin"
+                    android:layout_alignParentRight="true"
+                    app:tipo="bold"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
